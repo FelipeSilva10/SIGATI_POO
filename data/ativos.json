@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "hostname": "mouse",
+    "responsavel": "felipe",
+    "setor": "01",
+    "tipo": 1,
+    "descricao": "o caso",
+    "vulnerabilidades": [
+      {
+        "id": 1,
+        "ativo_id": 1,
+        "descricao": "error 01",
+        "categoria": "erro",
+        "severidade": 1,
+        "status": 3
+      },
+      {
+        "id": 2,
+        "ativo_id": 1,
+        "descricao": "quebrou :(",
+        "categoria": "GRAVE",
+        "severidade": 4,
+        "status": 1
+      }
+    ]
+  }
+]
