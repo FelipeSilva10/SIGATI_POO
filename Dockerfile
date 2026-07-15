@@ -6,4 +6,6 @@ WORKDIR /app
 
 COPY . .
 
+RUN pip install --no-cache-dir Flask
+
 CMD ["python", "main.py"]
